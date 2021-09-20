@@ -9,6 +9,8 @@ function App() {
         <p>
          Hellow Ruhul Amin
         </p>
+        <p>Stateless Functional Component !</p>
+        <p>Stateful Class Component! </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,5 +23,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

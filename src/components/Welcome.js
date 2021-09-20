@@ -1,9 +1,17 @@
 import React,{Component} from 'react'
 
 class Welcome extends Component{
-    render(){
+    constructor(){
+        super()
+
+    }
+    render(props){
         return(
-            <h1>Hello From Welcome Page Ruhul !! </h1>
+            <div>
+                <p>Props are immutable !! u can not change props element  , (use setState ! )</p>
+                <h1>  College From  {this.props.college} </h1>
+            </div>
+            
         )
     }
 }

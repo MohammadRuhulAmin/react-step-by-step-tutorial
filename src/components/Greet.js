@@ -5,7 +5,16 @@ import React from 'react'
 //     return <h1>Hi Ruhul Amin</h1>
 // }
 
-const Greet = ()=> <h1>Hi Ruhul Amin </h1>
+const Greet = (props)=> {
+    return (
+        <div>
+            <h1>Hi {props.name} </h1>
+            <p>Email {props.email}</p>
+            <p>{props.children}</p>
+        
+        </div>
+    )
+}
 
 
-export default Greet 
+export default Greet  

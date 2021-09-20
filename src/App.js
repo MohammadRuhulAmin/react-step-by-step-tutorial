@@ -5,6 +5,8 @@ import { ExpGreet } from './components/ExportGreet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
+import Distructor from './components/Distructor'
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
       <Welcome college="Motijhil Ideal College , Dhaka"/>
       <Hello/>
       <Message  />
+      <Counter/>
+      <Distructor name= "Ruhul AMin " email="ruhulamin@gmail.com"/>
     </div>
   );
 }

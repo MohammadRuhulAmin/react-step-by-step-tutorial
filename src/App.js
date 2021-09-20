@@ -4,6 +4,7 @@ import Greet from './components/Greet'
 import { ExpGreet } from './components/ExportGreet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
       <Welcome college="Dhaka College"/>
       <Welcome college="Motijhil Ideal College , Dhaka"/>
       <Hello/>
+      <Message  />
     </div>
   );
 }

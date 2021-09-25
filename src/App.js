@@ -9,9 +9,13 @@ import Counter from './components/Counter';
 import Distructor from './components/Distructor'
 import Counter2 from './components/Counter2';
 import Parent from './components/Parent';
+import FunctionClick from './components/FunctionClick';
+import EventClick from './components/EventClick';
 function App() {
   return (
     <div className="App">
+      <EventClick/>
+      <FunctionClick/>
       <Parent/>
       <Counter2/>
       <Greet name="Ruhul Amin " email="ruhul@gmail.com">

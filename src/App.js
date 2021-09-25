@@ -7,9 +7,13 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Distructor from './components/Distructor'
+import Counter2 from './components/Counter2';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
+      <Parent/>
+      <Counter2/>
       <Greet name="Ruhul Amin " email="ruhul@gmail.com">
         <p>This is a children props !! ok@ you have to use in a children component the follwing jsx that is  props.children  </p>
       </Greet>

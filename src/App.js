@@ -11,9 +11,13 @@ import Counter2 from './components/Counter2';
 import Parent from './components/Parent';
 import FunctionClick from './components/FunctionClick';
 import EventClick from './components/EventClick';
+import EventBind from './components/EventBind';
+import EventBind2 from './components/EventBind2';
 function App() {
   return (
     <div className="App">
+      <EventBind2/>
+      <EventBind/>
       <EventClick/>
       <FunctionClick/>
       <Parent/>

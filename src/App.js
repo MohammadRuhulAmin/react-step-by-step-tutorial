@@ -13,9 +13,13 @@ import FunctionClick from './components/FunctionClick';
 import EventClick from './components/EventClick';
 import EventBind from './components/EventBind';
 import EventBind2 from './components/EventBind2';
+import ParentComponent from './components/ParentComponent';
+import ParentComp2 from './components/ParentComp2';
 function App() {
   return (
     <div className="App">
+      <ParentComp2/>
+      <ParentComponent/>
       <EventBind2/>
       <EventBind/>
       <EventClick/>

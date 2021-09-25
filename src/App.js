@@ -15,9 +15,11 @@ import EventBind from './components/EventBind';
 import EventBind2 from './components/EventBind2';
 import ParentComponent from './components/ParentComponent';
 import ParentComp2 from './components/ParentComp2';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return (
     <div className="App">
+      <UserGreeting/>
       <ParentComp2/>
       <ParentComponent/>
       <EventBind2/>

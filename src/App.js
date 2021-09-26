@@ -19,11 +19,13 @@ import UserGreeting from './components/UserGreeting';
 import Map from './components/Map';
 import NameList from './components/NameList';
 import EmployeeList from './components/EmployeeList';
+import FriendList from './components/FriendList';
 
 
 function App() {
   return (
     <div className="App">
+      <FriendList/>
       <EmployeeList/>
       <NameList/>
       <Map/>

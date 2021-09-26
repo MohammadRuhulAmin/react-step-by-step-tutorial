@@ -20,11 +20,17 @@ import Map from './components/Map';
 import NameList from './components/NameList';
 import EmployeeList from './components/EmployeeList';
 import FriendList from './components/FriendList';
+import Stylesheet from './components/Stylesheet';
+import UserStatus from './components/UserStatus';
+import Inline from './components/Inline';
 
 
 function App() {
   return (
     <div className="App">
+      <Inline/>
+      <UserStatus status = {true}/>
+      <Stylesheet/>
       <FriendList/>
       <EmployeeList/>
       <NameList/>

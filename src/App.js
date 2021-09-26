@@ -23,11 +23,16 @@ import FriendList from './components/FriendList';
 import Stylesheet from './components/Stylesheet';
 import UserStatus from './components/UserStatus';
 import Inline from './components/Inline';
+import Form from './components/Form';
+import UserForm  from './components/UserForm';
 
 
 function App() {
   return (
     <div className="App">
+     
+      <Form/>
+      <UserForm/>
       <Inline/>
       <UserStatus status = {true}/>
       <Stylesheet/>

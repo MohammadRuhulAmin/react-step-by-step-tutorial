@@ -4,7 +4,7 @@ import FriendStyle from './Success.module.css'
 
 const FriendList = ()=>{
 
-    const FriendsName = ['Sakib','Mariam' , 'Sajid','Ashraf']
+   const FriendsName = ['Sakib','Mariam' , 'Sajid','Ashraf']
    const friend = FriendsName.map((friend,index) => <h1 key={index}> {1+index} {friend}</h1>)
     return (
         <div className={FriendStyle.success}>
@@ -14,10 +14,6 @@ const FriendList = ()=>{
         </div>
         
     )
-
-
-
 }
-
 
 export default FriendList 

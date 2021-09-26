@@ -16,9 +16,17 @@ import EventBind2 from './components/EventBind2';
 import ParentComponent from './components/ParentComponent';
 import ParentComp2 from './components/ParentComp2';
 import UserGreeting from './components/UserGreeting';
+import Map from './components/Map';
+import NameList from './components/NameList';
+import EmployeeList from './components/EmployeeList';
+
+
 function App() {
   return (
     <div className="App">
+      <EmployeeList/>
+      <NameList/>
+      <Map/>
       <UserGreeting/>
       <ParentComp2/>
       <ParentComponent/>
@@ -48,10 +56,5 @@ function App() {
     </div>
   );
 }
-
-
-
-
-
 
 export default App;

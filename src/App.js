@@ -27,10 +27,13 @@ import Form from './components/Form';
 import UserForm  from './components/UserForm';
 import RegistrationForm from './components/RegistrationForm';
 import LifecycleA from './components/LifecycleA';
-
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 function App() {
   return (
     <div className="App">
+      <Table/>
+      <FragmentDemo/>
       <LifecycleA/>
      <RegistrationForm/>
       <Form/>

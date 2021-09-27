@@ -25,12 +25,13 @@ import UserStatus from './components/UserStatus';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import UserForm  from './components/UserForm';
+import RegistrationForm from './components/RegistrationForm';
 
 
 function App() {
   return (
     <div className="App">
-     
+     <RegistrationForm/>
       <Form/>
       <UserForm/>
       <Inline/>

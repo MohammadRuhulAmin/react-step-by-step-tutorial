@@ -26,11 +26,12 @@ import Inline from './components/Inline';
 import Form from './components/Form';
 import UserForm  from './components/UserForm';
 import RegistrationForm from './components/RegistrationForm';
-
+import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
     <div className="App">
+      <LifecycleA/>
      <RegistrationForm/>
       <Form/>
       <UserForm/>

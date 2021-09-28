@@ -29,10 +29,14 @@ import RegistrationForm from './components/RegistrationForm';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import LifecycleC from './components/LifecycleC';
+import Hook from './components/Hook';
 function App() {
   return (
     <div className="App">
-      <Table/>
+      <Hook/>
+      {/* <LifecycleC/> */}
+      {/* <Table/>
       <FragmentDemo/>
       <LifecycleA/>
      <RegistrationForm/>
@@ -70,7 +74,7 @@ function App() {
       <Hello/>
       <Message  />
       <Counter/>
-      <Distructor name= "Ruhul AMin " email="ruhulamin@gmail.com"/>
+      <Distructor name= "Ruhul AMin " email="ruhulamin@gmail.com"/> */}
     </div>
   );
 }
